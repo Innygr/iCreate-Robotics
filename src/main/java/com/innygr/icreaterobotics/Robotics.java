@@ -20,13 +20,20 @@ public final class Robotics {
 
     public static final DeferredHolder<Item, Item> ROBOTICS_CORE =
             ITEMS.registerSimpleItem("robotics_core");
+    public static final DeferredHolder<Item, Item> ROBOT_CHASSIS =
+            ITEMS.registerSimpleItem("robot_chassis");
+    public static final DeferredHolder<Item, Item> ROBOTIC_ARM =
+            ITEMS.registerSimpleItem("robotic_arm");
 
     static {
         TABS.register("robotics", () -> CreativeModeTab.builder()
                 .title(Component.translatable("itemGroup.icreate_robotics"))
                 .icon(() -> new ItemStack(ROBOTICS_CORE.get()))
-                .displayItems((parameters, output) -> output.accept(ROBOTICS_CORE.get()))
-                .build());
+                .displayItems((parameters, output) -> {
+                    output.accept(ROBOTICS_CORE.get());
+                    output.accept(ROBOT_CHASSIS.get());
+                    output.accept(ROBOTIC_ARM.get());
+                }).build());
     }
 
     public Robotics(IEventBus modBus) {
