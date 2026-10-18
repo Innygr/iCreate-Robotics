@@ -1,28 +1,29 @@
 # iCreate: Robotics
 
-An experimental addon for Create on Minecraft 1.21.1 (NeoForge).
+An experimental Create addon for Minecraft 1.21.1 on NeoForge.
 
-## First alpha scope
-- Reproducible NeoForge build and installable mod entry point.
-- Robotics Core, Robot Chassis, and Robotic Arm component items with provisional crafting recipes.
-- Robot entities, autonomous behavior, upgrades, and advanced automation remain planned follow-up work and are **not claimed complete** in this bootstrap build.
+## Alpha.1 contents
+- Three registered component items: Robotics Core, Robot Chassis, and Robotic Arm.
+- Provisional crafting recipes for the component chain.
+- Distinct vanilla placeholder icons so the components are visible before custom textures are integrated.
+- GitHub Actions build with a downloadable development JAR artifact.
 
-## Development
-- Minecraft 1.21.1; NeoForge 21.1.x; Java 21
-- Intended integration: Create 6.0.x
+## Not implemented yet
+- Robot entities or deployable robots.
+- Autonomous movement, work tasks, and factory interaction.
+- Robot upgrades, behavior configuration, and advanced automation.
+- Custom textures, sounds, and in-game balancing.
 
-This is an early development snapshot. Do not treat it as a finished robotics system or use it in important worlds without backups. The core item is a bootstrap placeholder; visuals and gameplay behavior still need implementation.
+## Compatibility
+- Minecraft 1.21.1
+- NeoForge 21.1.x (built against 21.1.251)
+- Java 21
+- Intended Create integration: 6.0.x
 
-GitHub Actions builds on pushes and pull requests. Use Gradle 8.12 with Java 21 and run `gradle build`.
+This is a development alpha, not a finished robotics system. Back up worlds before testing and do not assume planned features are available.
+
+## Build
+With Java 21 and Gradle 8.12, run `gradle --no-daemon build`. GitHub Actions uploads the built JAR as a short-lived workflow artifact. Test the artifact in both a client and a dedicated server before considering a Modrinth release.
 
 ## License
-See [LICENSE](LICENSE).
-
-
-## Included in alpha.1
-- A craftable Robotics Core prototype item.
-- Placeholder icon reuses a vanilla copper-ingot texture until custom art is integrated.
-- These are crafting foundations only; autonomous robot behavior is not included yet.
-
-
-The alpha currently uses vanilla placeholder icons for the new components. Custom textures, recipes balancing, and actual robot behavior are still planned.
+MIT. See [LICENSE](LICENSE).
