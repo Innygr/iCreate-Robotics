@@ -4,7 +4,7 @@ An experimental addon for Create on Minecraft 1.21.1 (NeoForge).
 
 ## First alpha scope
 - Reproducible NeoForge build and installable mod entry point.
-- An initial Robotics Core item for early crafting and prototyping.
+- Robotics Core, Robot Chassis, and Robotic Arm component items with provisional crafting recipes.
 - Robot entities, autonomous behavior, upgrades, and advanced automation remain planned follow-up work and are **not claimed complete** in this bootstrap build.
 
 ## Development
@@ -22,4 +22,7 @@ See [LICENSE](LICENSE).
 ## Included in alpha.1
 - A craftable Robotics Core prototype item.
 - Placeholder icon reuses a vanilla copper-ingot texture until custom art is integrated.
-- The core is a crafting foundation only; autonomous robot behavior is not included yet.
+- These are crafting foundations only; autonomous robot behavior is not included yet.
+
+
+The alpha currently uses vanilla placeholder icons for the new components. Custom textures, recipes balancing, and actual robot behavior are still planned.
