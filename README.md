@@ -17,3 +17,9 @@ GitHub Actions builds on pushes and pull requests. Use Gradle 8.12 with Java 21 
 
 ## License
 See [LICENSE](LICENSE).
+
+
+## Included in alpha.1
+- A craftable Robotics Core prototype item.
+- Placeholder icon reuses a vanilla copper-ingot texture until custom art is integrated.
+- The core is a crafting foundation only; autonomous robot behavior is not included yet.
