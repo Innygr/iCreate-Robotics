@@ -1,4 +1,6 @@
 {
   "itemGroup.icreate_robotics": "iCreate: Robotics",
-  "item.icreate_robotics.robotics_core": "Robotics Core"
+  "item.icreate_robotics.robotics_core": "Robotics Core",
+  "item.icreate_robotics.robot_chassis": "Robot Chassis",
+  "item.icreate_robotics.robotic_arm": "Robotic Arm"
 }
