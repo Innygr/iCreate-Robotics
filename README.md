@@ -5,7 +5,7 @@ An experimental Create addon for Minecraft 1.21.1 on NeoForge.
 ## Alpha.1 contents
 - Three registered component items: Robotics Core, Robot Chassis, and Robotic Arm.
 - Provisional crafting recipes for the component chain.
-- Distinct vanilla placeholder icons so the components are visible before custom textures are integrated.
+- Distinct vanilla placeholder icons and in-game tooltips explaining each component's intended role and unfinished behavior.
 - GitHub Actions build with a downloadable development JAR artifact.
 
 ## Not implemented yet

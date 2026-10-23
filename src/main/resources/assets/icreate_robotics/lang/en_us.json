@@ -2,5 +2,9 @@
   "itemGroup.icreate_robotics": "iCreate: Robotics",
   "item.icreate_robotics.robotics_core": "Robotics Core",
   "item.icreate_robotics.robot_chassis": "Robot Chassis",
-  "item.icreate_robotics.robotic_arm": "Robotic Arm"
+  "item.icreate_robotics.robotic_arm": "Robotic Arm",
+  "tooltip.icreate_robotics.robotics_core": "Control and compute module for future robots.",
+  "tooltip.icreate_robotics.robot_chassis": "Structural frame for the planned robot assembly system.",
+  "tooltip.icreate_robotics.robotic_arm": "Manipulator component; automated interaction is not implemented yet.",
+  "tooltip.icreate_robotics.alpha_notice": "Early alpha — some components are placeholders."
 }
